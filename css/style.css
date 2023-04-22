@@ -1,11 +1,35 @@
-.center
-{
+body{
+  font-family: 'Libre Baskerville', 'serif', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+  font: 1,2rem;
+ 
+}
+
+h1{
     text-align: center;
 }
 
-.center table
+.form{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+}
+
+label, input{
+    text-align: justify;
+    display: inline-block;
+    width: 80px;
+    background-color: #fff;
+    margin-top: 10px;
+  }
+
+
+.table
 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin: auto; 
+    margin-top: 60px;
 }

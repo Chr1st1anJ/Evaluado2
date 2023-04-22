@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="css/style.css">
     <title>Registro de compras</title>
   </head>
   <body>
     <h1>Registro de compras</h1>
-    <form action="agregar.php" method="post">
+    <form id="form" class="form" action="agregar.php" method="post">
       <label for="nombre">Nombre del artículo:</label>
       <input type="text" id="nombre" name="nombre" required><br>
       <label for="cantidad">Cantidad:</label>
@@ -17,7 +17,7 @@
       <input type="submit" value="Agregar al carrito">
       <input type="reset" value="Reiniciar lista">
     </form>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>Nombre</th>
